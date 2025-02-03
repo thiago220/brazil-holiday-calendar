@@ -8,7 +8,7 @@
 ## 📦 Installation / Instalação
 
 ```bash
-npm install brazilian-holidays
+npm install brazil-holiday-calendar
 ```
 
 ## 🚀 Features / Funcionalidades
@@ -30,7 +30,7 @@ const {
   getNextHoliday, 
   countBusinessDays, 
   addCustomHoliday 
-} = require('brazilian-holidays');
+} = require('brazil-holiday-calendar');
 
 // 📅 Get all holidays for a specific year / Obter todos os feriados para um ano específico
 console.log(getHolidays(2024));
