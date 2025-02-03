@@ -3,7 +3,7 @@
 > 🚀 A powerful and flexible Node.js package to handle **Brazilian holidays** with ease.
 > 🚀 Um pacote Node.js poderoso e flexível para lidar com **feriados brasileiros** de forma simples.
 
-![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg) ![npm](https://img.shields.io/npm/v/brazilian-holidays) ![Node.js](https://img.shields.io/badge/node-%3E%3D14.0.0-brightgreen)
+![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg) ![npm](https://img.shields.io/npm/v/brazilian-holidays) ![Node.js](https://img.shields.io/badge/node-%3E%3D18.0.0-brightgreen)
 
 ## 📦 Installation / Instalação
 

@@ -8,11 +8,14 @@
     "brasil",
     "datas comemorativas",
     "holidays",
-    "brazil", 
+    "brazil",
     "calendar"
   ],
   "author": "Thiago S. Dias",
   "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "scripts": {
     "start": "node src/index.js"
   }
