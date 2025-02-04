@@ -14,6 +14,8 @@ function getHolidays(year = new Date().getFullYear(), state = null, city = null)
     holidays = [...holidays, ...getMunicipalHolidays(year, state, city)];
   }
 
+  holidays.sort((a, b) => new Date(a.date) - new Date(b.date));
+
   return holidays;
 }
 
