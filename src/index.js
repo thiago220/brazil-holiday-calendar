@@ -18,7 +18,10 @@ function getHolidays(year = new Date().getFullYear(), state = null, city = null)
 }
 
 function isBusinessDay(date, state = null, city = null) {
-  const formattedDate = date.split('T')[0];
+  const formattedDate = typeof date === 'string'
+    ? date.split('T')[0]
+    : date.toISOString().split('T')[0];
+
   const holidays = getHolidays(new Date(date).getFullYear(), state, city);
   return !holidays.some(holiday => holiday.date === formattedDate) && !isWeekend(date);
 }
